@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Assignment10" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c42a6d8e-d0e8-4cad-af61-de11ea5314fd">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-10" y="9" width="555" height="61" backcolor="#D1CBCB" uuid="8ac344ce-20f3-4982-948c-b4d6cab7a532"/>
+			</rectangle>
+			<textField>
+				<reportElement x="50" y="11" width="440" height="40" uuid="0446c951-fb0d-4bb5-879c-1d1924a27c49"/>
+				<textElement>
+					<font size="29"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Barry Clarric Maddy State School]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="90" y="51" width="361" height="20" uuid="a4f72cbd-eb8f-4339-96fd-5cb5603cc8f8"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Andreson Bin, Hashall,Street, Jeremiah, United States-456787]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="66" splitType="Stretch">
+			<ellipse>
+				<reportElement x="70" y="10" width="441" height="40" backcolor="#E5F1FB" uuid="c912ebd0-6483-4e34-a8c9-12a6da8ad0ec"/>
+			</ellipse>
+			<staticText>
+				<reportElement x="130" y="20" width="300" height="20" uuid="6ca387e9-6b7f-403f-86a2-d81c6e6c1389"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[                       Student Progress Report]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-20" y="60" width="591" height="6" forecolor="#1A49C9" backcolor="#1A3EBD" uuid="acc5ed9d-6219-4a78-8e61-78cefe3e1283"/>
+			</line>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="408" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="10" width="551" height="290" uuid="51621f8a-14a3-465a-b255-2dbf716b6cdb"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[            "By keeping all these questions in our mind today we have come up with a new topic called “A Guide on Paragraph Writing”. With this guide, we’ll try to answer all these questions about paragraph writing. Paragraphs act as the main role in a student’s life. While writing any topic in an exam or competition needs paras to explain the concept in an understandable way for the readers".
+
+               "For grabbing the attention of readers, it’s compulsory to write a succinct paragraph by including all the elements. So, to make it easy and simple to understand by the students, let’s start learning more about paragraph writing skills by referring below modules".
+               
+               " Need some examples on paragraph writing then this is the right place for kids and students who are really excited to learn paragraph skills. Here, we have listed a paragraph writing topics on different events such as Paragraph On Environment, Paragraph On Animals like tiger, etc".]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="315" width="541" height="81" uuid="37e28140-9227-4129-b7d7-46e1df44ab53"/>
+				<textElement>
+					<font fontName="Bodoni MT" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Paragraph On Christmas, Diwali, Dusshera, and other festivals, Paragraph On Global Warming, save water, save trees, Paragraph On Child Labour, Paragraph On Sports, Paragraph On Health And Fitness, Paragraph On APJ Abdul Kalam, and many more on technology too. "]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="-22" y="396" width="597" height="1" forecolor="#322FEB" uuid="0fea5340-9135-4d6c-9d0c-1c998e431a7c"/>
+			</line>
+		</band>
+	</detail>
+	<summary>
+		<band height="42" splitType="Stretch">
+			<rectangle>
+				<reportElement x="180" y="20" width="210" height="21" backcolor="#FCD80A" uuid="e002617b-3644-4333-afa8-07064bb14a15"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="185" y="21" width="200" height="18" uuid="6509df80-1089-4c8d-8d57-4d60eacf3a35"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Email : barryclaric@gmail.com]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>
