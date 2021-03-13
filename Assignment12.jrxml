@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Assignment12" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b6d509b8-5120-4de6-9084-92ecd50a07c2">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<textField>
+				<reportElement x="120" y="10" width="380" height="50" uuid="76070483-a9a8-4b40-8c16-ec4e45761cee"/>
+				<textElement>
+					<font fontName="Algerian" size="25"/>
+				</textElement>
+				<textFieldExpression><![CDATA[          Students Record]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="10" width="30" height="100" uuid="e59113e9-8176-4104-9162-9712e95bd0e7"/>
+				<textElement rotation="Left">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Student Data]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="10" width="120" height="20" uuid="50a6ea52-494e-4d9d-bcee-312bce2755b5"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Students Name]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="10" width="101" height="20" uuid="6eb44bff-b0f4-4e5a-aeeb-f330b6d8c674"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Roll No.]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="10" width="111" height="20" uuid="1a00245f-60b9-4b9a-8235-801449b9396b"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Students Id]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="41" width="121" height="71" uuid="e2535b74-f58a-4939-91e4-88976598aec8"/>
+				<textElement>
+					<font fontName="Arial" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Suresh C.
+Nayan B.
+Vishnu S.
+Heena S.]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="41" width="101" height="71" uuid="6c263622-0f6e-49f5-b09c-9b94e2bafb9d"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[30
+40
+04
+09]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="41" width="111" height="71" uuid="d89bceb3-6005-48b9-a61f-e384bae3bf5c"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[S7578
+K8788
+H7667
+V8768]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="145">
+			<staticText>
+				<reportElement x="10" y="26" width="30" height="94" uuid="b506461c-cf94-40cf-aa8d-7a0460df7d0c"/>
+				<textElement rotation="Left">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Student Data]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="26" width="121" height="24" uuid="31d743a3-8172-432a-92e5-8d4ea58bf039"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Students Name]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="26" width="101" height="21" uuid="6cac995a-e42f-49e0-8488-345cab2ed3a6"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Roll No.]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="26" width="111" height="21" uuid="4e52fed9-2a96-4e9e-b19d-9c5ca3640aaa"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Students Id]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="60" width="121" height="70" uuid="9de3bd40-6baa-45e9-a4cc-11dd83e5b78a"/>
+				<textElement>
+					<font fontName="Arial" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Muktai P.
+Vaishnavi S.
+Unnati S.
+Ravi S.]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="60" width="101" height="71" uuid="6054aec3-f9b0-4a16-8039-cd042a296365"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[05
+29
+20
+01]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="60" width="111" height="71" uuid="97a2e2b9-71b9-47c1-89bf-bf71eae740a2"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[D8765
+L9876
+M6543
+P0472]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="112" splitType="Prevent">
+			<staticText>
+				<reportElement positionType="FixRelativeToBottom" x="110" y="31" width="120" height="31" uuid="d8ed2891-5049-4319-be9b-cccc84d68449"/>
+				<textElement>
+					<font size="16"/>
+				</textElement>
+				<text><![CDATA[Student Data]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="100" y="31" width="141" height="21" uuid="c7b9dcbb-4cb4-42b6-b0b0-470365819d30"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Students Details]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
