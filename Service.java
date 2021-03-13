@@ -1,6 +1,7 @@
-package com.heena.ec.Assignment10.jasper;
+package com.heena.ec.Assignment11;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,7 +22,7 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 
 public class Service {
 
-	public static String destinationPath="C:\\Assignment10.pdf";
+	public static String destinationPath="C:\\Assignment11.pdf";
 	public String startGeneratingPdf() throws URISyntaxException, JRException, IOException {
 		
 		
@@ -83,7 +84,7 @@ public class Service {
 
 	private String getJrxmlLocationPath() throws URISyntaxException {
 		
-		String path=getClass().getClassLoader().getResource("Assignment10.jrxml").toURI().getPath();
+		String path=getClass().getClassLoader().getResource("Assignment11.jrxml").toURI().getPath();
 		
 		return path;
 	}

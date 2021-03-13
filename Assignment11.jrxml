@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Assignment11" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9ec4d2b7-3385-4e3f-8838-cf3415a3fd2d">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="81" splitType="Stretch">
+			<image>
+				<reportElement x="10" y="9" width="70" height="61" uuid="d0a9ca89-cfd0-4edf-9173-18a424fdfefc"/>
+				<imageExpression><![CDATA["C:/Users/Heena Sakhare/Desktop/1.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="150" y="10" width="290" height="61" uuid="d3d49a6a-4e18-4e84-ab6f-80c2611d3751"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[                   Barry Clarric Maddy State School
+                         Student Progress Report
+
+                      Mathematics Progress Card]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="260" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="10" width="140" height="51" uuid="23e0f1cb-9ff7-4cfb-af2e-62af6c49aecb"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Student Name : Emma B.
+
+Roll No. : 11]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="10" width="140" height="51" uuid="2cfdcd58-27fb-4125-905f-4cf99653eaa6"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Division : A
+
+Admission Id : A245]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="420" y="10" width="110" height="51" uuid="eb0ef5b8-4114-47f5-a495-f7d6f3dd73c7"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Cources : 9
+
+Date : 27-Feb-2021]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-11" y="89" width="571" height="171" uuid="eda69469-1d69-47d9-9606-bae32cd9129d"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[               "By keeping all these questions in our mind today we have come up with a new topic called “A Guide on Paragraph Writing”. With this guide, we’ll try to answer all these questions about paragraph writing. Paragraphs act as the main role in a student’s life. While writing any topic in an exam or competition needs paras to explain the concept in an understandable way for the readersFor grabbing the attention of readers, it’s compulsory to write a succinct paragraph by including all the elements. So, to make it easy and simple to understand by the students, let’s start learning more about paragraph writing skills by referring below modules".
+               ]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="81" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="10" width="111" height="20" uuid="a8368c80-4fb8-4503-8d02-a028e4381bd2"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[    Dhavel Patel]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="40" width="111" height="1" backcolor="#080606" uuid="40b5cedd-35db-42f2-9462-13ee71ff215a"/>
+			</line>
+			<textField>
+				<reportElement x="0" y="60" width="111" height="21" uuid="109ed01c-69a5-426e-9b2b-603e0a067676"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[       Principal]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="10" width="121" height="20" uuid="96a4d060-6a76-48a5-992e-12796c015f60"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[     Urvesh Rathod]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="200" y="39" width="121" height="1" backcolor="#0F0C0B" uuid="1fdcc97e-a9ff-4fce-aba0-e3307109f87b"/>
+			</line>
+			<textField>
+				<reportElement x="200" y="60" width="121" height="20" uuid="1546ed6d-f3ba-4311-874c-ce3e85a3a6e8"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[     Class Teacher]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="10" width="135" height="20" uuid="607a67c8-32ed-49ff-a79d-7f7573ace2d2"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[     Heena Lanjewar]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="410" y="39" width="135" height="1" backcolor="#0D0B0B" uuid="3e50efcc-76eb-4b46-a3d8-74a7604bd6cc"/>
+			</line>
+			<textField>
+				<reportElement x="410" y="59" width="131" height="21" uuid="ab31640a-ce3a-42e9-bb5a-f729c0e7b915"/>
+				<textElement>
+					<font fontName="Arial Rounded MT Bold" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[     Subject Teacher]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>
