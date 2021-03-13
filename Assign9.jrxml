@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Assign9" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0e639d81-bcc4-4af5-a763-ac7c09a7c6dd">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<textField>
+				<reportElement x="-10" y="10" width="600" height="40" uuid="5bea07f8-8fc9-4c2f-b0f5-0b1292e90fb1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="27"/>
+				</textElement>
+				<textFieldExpression><![CDATA[         Barry Clarric Maddy State School]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="70" y="50" width="430" height="21" uuid="e2db7bc6-8389-4aa1-9c14-0ae0cf38ca18"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[       Anderson Bin, Hashall Street, Jeremiah, United State 456787]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="47" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="108" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="17" width="210" height="91" uuid="25e60331-0078-4da0-bd2f-1bd4b5f8823b"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Student Name : Emma B.
+Mother Name : Rachel B.
+Father Name : Ross B.
+Class : 9 A
+DOB : 27/08/2010
+Roll No. : 11
+Admission No. : A3525]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
